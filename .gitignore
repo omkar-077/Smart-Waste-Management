@@ -11,6 +11,7 @@ frontend/.env.local
 simulator/serviceAccount.json
 simulator/*.json
 !simulator/config.json
+simulator/config.json
 !simulator/requirements.txt
 
 # Node
