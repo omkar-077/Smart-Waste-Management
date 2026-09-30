@@ -1,0 +1,43 @@
+# SmartWaste IoT Platform — .gitignore
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.production
+frontend/.env
+frontend/.env.local
+
+# Firebase service account (NEVER commit this)
+simulator/serviceAccount.json
+simulator/*.json
+!simulator/config.json
+!simulator/requirements.txt
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+simulator/__pycache__/
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

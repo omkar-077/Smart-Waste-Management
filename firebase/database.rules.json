@@ -1,0 +1,50 @@
+{
+  "rules": {
+    "smartwaste": {
+      "bins": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "sensorReadings": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "alerts": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "employees": {
+        ".read": "auth != null",
+        "$employeeId": {
+          ".write": "auth != null"
+        }
+      },
+      "tasks": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "collections": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "notifications": {
+        "$employeeId": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        }
+      },
+      "auditLog": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "wards": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      },
+      "settings": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
+}

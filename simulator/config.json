@@ -1,0 +1,54 @@
+{
+  "firebase": {
+    "serviceAccountPath": "./serviceAccount.json",
+    "databaseURL": "https://smartwaste-6ebf0-default-rtdb.firebaseio.com"
+  },
+  "simulation": {
+    "numBins": 50,
+    "updateIntervalSeconds": 10,
+    "historyRetentionDays": 30
+  },
+  "municipality": {
+    "name": "Nashik Municipal Corporation",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "country": "India",
+    "centerLatitude": 19.9975,
+    "centerLongitude": 73.7898,
+    "wards": [
+      "Ward 1 - Panchavati",
+      "Ward 2 - Shalimar",
+      "Ward 3 - Nashik Road",
+      "Ward 4 - Cidco",
+      "Ward 5 - Satpur",
+      "Ward 6 - Deolali",
+      "Ward 7 - Gangapur",
+      "Ward 8 - Indira Nagar",
+      "Ward 9 - Ashok Stambh",
+      "Ward 10 - Canada Corner"
+    ]
+  },
+  "thresholds": {
+    "normal": 0,
+    "medium": 60,
+    "high": 80,
+    "critical": 90
+  },
+  "sensor": {
+    "emptyDistanceCm": 100,
+    "fullDistanceCm": 10,
+    "minValidDistanceCm": 2,
+    "maxValidDistanceCm": 110
+  },
+  "alertCooldownMinutes": 30,
+  "binTypes": ["Dry Waste", "Wet Waste", "Recyclable", "Hazardous"],
+  "scenarios": {
+    "normalFillRate": 0.5,
+    "rapidFillRate": 2.0,
+    "slowFillRate": 0.2,
+    "sensorFailureProbability": 0.01,
+    "batteryDrainRate": 0.01,
+    "lowBatteryThreshold": 20,
+    "abnormalReadingProbability": 0.005
+  }
+}
