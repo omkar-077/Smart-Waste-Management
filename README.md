@@ -296,7 +296,7 @@ All thresholds and settings are centralized in:
 ---
 
 ## Screenshots
-
+```
 > Add screenshots after running the application
 
 1. `screenshots/login.png`
@@ -307,6 +307,7 @@ All thresholds and settings are centralized in:
 6. `screenshots/employee-task.png`
 
 ---
+```
 
 *SmartWaste v1.0 — Built for Nashik Municipal Corporation*  
 *Technology: React · Firebase · Python · Leaflet · Recharts*
