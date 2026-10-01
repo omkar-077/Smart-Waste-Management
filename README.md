@@ -294,7 +294,7 @@ All thresholds and settings are centralized in:
 - 🌐 Integration with municipal ERP systems
 
 ---
-
+<!--
 ## Screenshots
 ```
 > Add screenshots after running the application
@@ -308,6 +308,6 @@ All thresholds and settings are centralized in:
 
 ---
 ```
-
+-->
 *SmartWaste v1.0 — Built for Nashik Municipal Corporation*  
 *Technology: React · Firebase · Python · Leaflet · Recharts*
